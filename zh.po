@@ -659,7 +659,7 @@ msgstr "Morgan 杀毒软件"
 msgid "PLUGIN.morgan_av.description"
 msgstr ""
 "本局剩余时间内难度提升。\n"
-"每个中途点额外生成 1 个 Plus! 敌人。"
+"每个中途点额外生成 1 个增强版敌人。"
 
 #. Plugin - name (popup_blocker)
 #. source: Realtime Protection
@@ -825,7 +825,7 @@ msgstr "奖励泄漏"
 #. Plugin - description (reward_leak)
 #. source: Spawn 4 CLICK-ME or Memory Leak files around you.
 msgid "PLUGIN.reward_leak.description"
-msgstr "在你周围生成 4 个 CLICK-ME 或内存泄漏文件。"
+msgstr "在你周围生成 4 个 CLICK-ME 或内存故障文件。"
 
 #. Plugin - name (expansion_slot)
 #. source: Expansion Slot
@@ -1420,7 +1420,7 @@ msgstr "巨型气泡四处飘浮，为敌人叠加感染层数。"
 #. Upgrade card - name (weapon_cdrive)
 #. source: C: Drive
 msgid "UPGRADE.weapon_cdrive.name"
-msgstr "C: 盘"
+msgstr "本地磁盘 (C:)"
 
 #. Upgrade card - description (weapon_cdrive)
 #. source: Drops harddrives randomly on enemies.
@@ -1480,7 +1480,7 @@ msgstr "在玩家附近涂抹圆圈，对敌人造成伤害并持续叠加卡顿
 #. Upgrade card - name (weapon_pinball)
 #. source: Pinball
 msgid "UPGRADE.weapon_pinball.name"
-msgstr "弹球"
+msgstr "三维弹球"
 
 #. Upgrade card - description (weapon_pinball)
 #. source: Shoots a bouncing ball towards the nearest enemy.
@@ -1735,17 +1735,17 @@ msgstr "精英"
 #. ELITE - name (error)
 #. source: Error Plus!
 msgid "ELITE.error.name"
-msgstr "错误 Plus!"
+msgstr "错误增强版"
 
 #. ELITE - name (question)
 #. source: Question Plus!
 msgid "ELITE.question.name"
-msgstr "问号 Plus!"
+msgstr "问号增强版"
 
 #. ELITE - name (crawler)
 #. source: Internet Crawler Plus!
 msgid "ELITE.crawler.name"
-msgstr "网络爬虫 Plus!"
+msgstr "网络爬虫增强版"
 
 #. ELITE - name (avn_buddy)
 #. source: AVN Buddy Plus!
@@ -1840,7 +1840,7 @@ msgstr "大护盾"
 #. Enemy sniper-feed name - name (memory_leak)
 #. source: Memory Leak
 msgid "ENEMY.memory_leak.name"
-msgstr "内存泄漏"
+msgstr "该内存不能为 read"
 
 #. Enemy sniper-feed name
 #. source: memory_leak.reg
@@ -2441,7 +2441,7 @@ msgstr "主题"
 #. Personalise window - wallpaper group box title
 #. source: Wallpaper
 msgid "UI.personalise_group_background"
-msgstr "壁纸"
+msgstr "墙纸"
 
 #. Personalise window - user name group box title
 #. source: User name
@@ -3093,12 +3093,12 @@ msgstr "HaD: DoCK 处决爆头命中数。"
 #. Profile stats - installer skip or delete
 #. source: Plugins Skipped
 msgid "UI.stat_installer_skipped"
-msgstr "已跳过插件"
+msgstr "已取消勾选"
 
 #. Profile stats - installer skip tooltip
 #. source: Times Skip or Delete was used in an Installer.
 msgid "UI.stat_installer_skipped_desc"
-msgstr "安装程序中使用跳过或删除的次数。"
+msgstr "在安装程序里点掉捆绑勾选的次数。"
 
 #. Profile stats - shop upgrades bought
 #. source: Shop Purchases
@@ -3150,7 +3150,7 @@ msgstr "下载"
 #. Add/Remove Unlocks - window title
 #. source: Add/Remove Unlocks
 msgid "UI.features_store_title"
-msgstr "添加/删除解锁内容"
+msgstr "添加或删除解锁项"
 
 #. Add/Remove Unlocks - weapons tab intro
 #. source: Unlock new weapons to start with and choose during runs.
@@ -3689,7 +3689,7 @@ msgstr "%d %s"
 #. source: %d Plus! enemies
 #. Keep placeholders unchanged: %d
 msgid "UI.notif_elites_count"
-msgstr "%d 个 Plus! 敌人"
+msgstr "%d 个增强版敌人"
 
 #. Normal installer window title
 #. source: Plugin Suite Installation
@@ -3719,12 +3719,12 @@ msgstr "Morgan 杀毒软件安装程序"
 #. Installer skip tooltip when no Key was spent
 #. source: Skip installing.
 msgid "UI.installer_skip_no_key"
-msgstr "跳过安装。"
+msgstr "取消勾选。"
 
 #. Installer skip tooltip when a Key is refunded
 #. source: Skips installing plugin and refunds Key.
 msgid "UI.installer_skip"
-msgstr "跳过安装插件并退还钥匙。"
+msgstr "取消勾选该插件，并退还钥匙。"
 
 #. Side Task HUD progress line
 #. source: Open %d/%d .%s files
@@ -3791,7 +3791,7 @@ msgstr "查看"
 #. Window menu Favorites
 #. source: Favorites
 msgid "UI.menu_favorites"
-msgstr "收藏夹"
+msgstr "收藏"
 
 #. Window menu Help
 #. source: Help
@@ -3816,7 +3816,7 @@ msgstr "初始武器"
 #. Installer Remove button tooltip
 #. source: Skips installing plugin and removes it from selection pool.
 msgid "UI.installer_remove_tooltip"
-msgstr "跳过安装该插件，并将其从选择池中移除。"
+msgstr "取消勾选该插件，并把它移出候选池。"
 
 #. Installer Install button tooltip
 #. source: Installs plugin.
@@ -3853,19 +3853,19 @@ msgstr "你赢了！"
 #. Keep placeholders unchanged: {click}, {tab}
 msgid "UI.bluescreen_text"
 msgstr ""
-"发生致命异常，为防止数据损坏，系统已被终止。\n"
+"一个问题已经检测到，Windows 已关闭以防止损坏您的计算机。\n"
 "\n"
 "CODE_HALTED: SYSTEM_COHERENCE_FAILURE\n"
 "\n"
-"如果这是你第一次看到此终止屏幕，请重启系统。\n"
+"如果这是您第一次看到这个停止错误屏幕，请重新启动计算机。\n"
 "如果此屏幕再次出现，内部模块可能已被篡改。\n"
 "\n"
-"请校验已安装组件的完整性。异常行为可能\n"
+"请检查已安装组件的完整性。异常行为可能\n"
 "意味着内存损坏、无效数据包注入，或未授权的脚本执行。\n"
 "\n"
 "如果问题持续存在，请执行安全重启，或联系系统内部管理员。\n"
 "\n"
-"技术转储：\n"
+"技术信息：\n"
 "STOP: 0x0000000d (0xFF0000Fa, 0x00000023, 0x00000022, 0x820ea23b)\n"
 "\n"
 "正在开始强制关机...\n"
@@ -3886,12 +3886,12 @@ msgstr "转到"
 #. Installer Remove button
 #. source: Remove
 msgid "UI.installer_remove"
-msgstr "移除"
+msgstr "移出候选"
 
 #. Installer Skip button
 #. source: Skip
 msgid "UI.installer_skip_button"
-msgstr "跳过"
+msgstr "取消勾选"
 
 #. Vapor window cache-validation status
 #. source: Validating cache files...
@@ -4407,12 +4407,12 @@ msgstr "传说安装程序"
 #. UI (script-driven)
 #. source: Defeat a Plus! enemy in 10 seconds
 msgid "UI.unlock_file_morgan_av"
-msgstr "在 10 秒内击败一个 Plus! 敌人"
+msgstr "在 10 秒内击败一个增强版敌人"
 
 #. UI (script-driven)
 #. source: Install Morgan Antivirus to raise difficulty and spawn extra Plus! enemies.
 msgid "UI.unlock_file_morgan_av_desc"
-msgstr "安装 Morgan 杀毒软件以提高难度，并生成额外的 Plus! 敌人。"
+msgstr "安装 Morgan 杀毒软件以提高难度，并生成额外的增强版敌人。"
 
 #. UI (script-driven)
 #. source: Bonus Beanz
@@ -4489,7 +4489,7 @@ msgstr "敌人移动速度提高 40%，伤害提高 20%。"
 #. Optional extra difficulty policy - name (bloatware)
 #. source: Bloatware
 msgid "POLICY.bloatware.name"
-msgstr "臃肿软件"
+msgstr "流氓软件全家桶"
 
 #. Optional extra difficulty policy - description (bloatware)
 #. source: 40% more enemies spawn, and enemies have 20% more health.
@@ -4529,7 +4529,7 @@ msgstr "8、16、24 级时不会获得新武器。"
 #. Optional extra difficulty policy - name (unsigned_driver)
 #. source: Activation Required
 msgid "POLICY.unsigned_driver.name"
-msgstr "需要激活"
+msgstr "此 Windows 副本不是正版"
 
 #. Optional extra difficulty policy - description (unsigned_driver)
 #. source: Keygen files do not spawn. Get plugins from cracked installers, or buy Keys at the Key Shop.
@@ -4614,7 +4614,7 @@ msgstr "开放中继"
 #. Optional extra difficulty policy - description (open_relay)
 #. source: Every battle file includes spam.
 msgid "POLICY.open_relay.description"
-msgstr "每个战斗文件都附带垃圾信息。"
+msgstr "每个战斗文件都会弹出广告。"
 
 #. Optional extra difficulty policy - name (default_domain_policy)
 #. source: Natasha's Wrath
@@ -5073,7 +5073,7 @@ msgstr "摧毁屏幕上的一切！"
 #. Desktop icon tooltip
 #. source: Harder run. Extra Plus! enemies.
 msgid "CLICKABLE.morgan_av_warning"
-msgstr "更难的一局。额外 Plus! 敌人。"
+msgstr "更难的一局。额外增强版敌人。"
 
 #. Stat tooltip
 #. source: Level %d
@@ -5459,7 +5459,7 @@ msgstr "丢包"
 #. Scene label
 #. source: Memory Leak!
 msgid "Memory Leak"
-msgstr "内存泄漏！"
+msgstr "该内存不能为 read！"
 
 #. Scene label
 msgid "Zip File"
@@ -5640,7 +5640,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (avn_away)
 #. source: Away Message
 msgid "DRIVER.avn_away.name"
-msgstr "离开消息"
+msgstr "离开自动回复"
 
 #. Weapon driver / overclock card - description (avn_away)
 #. source: Add +1 Amount. Increase Speed +20%.\nIncrease Size +15%.
@@ -5746,7 +5746,7 @@ msgstr ""
 #. Weapon driver / overclock card - name (cruiser_multitab)
 #. source: Browser Hijack
 msgid "DRIVER.cruiser_multitab.name"
-msgstr "浏览器劫持"
+msgstr "主页篡改"
 
 #. Weapon driver / overclock card - description (cruiser_multitab)
 #. source: Converts Lag to Infect. Add +1 Amount.\nIncrease Power +25%.
@@ -6369,7 +6369,7 @@ msgstr "未解锁武器 - 敬请期待"
 #. Scene label
 #. screens: stat_list.tscn
 msgid "StatsManager V0.1b"
-msgstr "StatsManager V0.1b"
+msgstr "Windows 优化大师 2003"
 
 #. Scene label
 #. screens: stat_list.tscn
@@ -6433,7 +6433,7 @@ msgstr "返回主菜单"
 #. Scene label
 #. screens: installer_window.tscn
 msgid "PluginInstaller v2.03 r2"
-msgstr "PluginInstaller v2.03 r2"
+msgstr "一键装机大师"
 
 #. Scene label
 #. screens: installer_window.tscn
@@ -6524,7 +6524,7 @@ msgstr ""
 #. Scene label
 #. screens: meta_upgrades_menu.tscn
 msgid "UpgradeManager 2003 rc2"
-msgstr "UpgradeManager 2003 rc2"
+msgstr "超级兔子魔法设置"
 
 #. Scene label
 #. screens: meta_upgrades_menu.tscn
