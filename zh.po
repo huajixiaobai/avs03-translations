@@ -3891,7 +3891,7 @@ msgstr "移出候选"
 #. Installer Skip button
 #. source: Skip
 msgid "UI.installer_skip_button"
-msgstr "取消勾选"
+msgstr "跳过"
 
 #. Vapor window cache-validation status
 #. source: Validating cache files...
@@ -6146,7 +6146,7 @@ msgstr "爆头！"
 #. Scene label
 #. screens: defrag_window.tscn
 msgid "Volume"
-msgstr "音量"
+msgstr "卷"
 
 #. Scene label
 #. screens: defrag_window.tscn
