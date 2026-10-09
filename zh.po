@@ -264,7 +264,7 @@ msgstr ""
 #. Plugin - name (armor_missing_hp)
 #. source: Last Known Good
 msgid "PLUGIN.armor_missing_hp.name"
-msgstr "上次正确配置"
+msgstr "最后一次正确的配置"
 
 #. Plugin - description (armor_missing_hp)
 #. source: Add +1 Armo(u)r per 2% missing HP.
@@ -356,7 +356,7 @@ msgstr "光标速度 ×1.1。"
 #. Plugin - name (cursor_speed_damage)
 #. source: Critical Battery
 msgid "PLUGIN.cursor_speed_damage.name"
-msgstr "临界电量"
+msgstr "电池电量严重不足"
 
 #. Plugin - description (cursor_speed_damage)
 #. source: Increase Cursor Speed +10%.\nIncrease Cursor Speed +30% when taking Damage (Lasts 10s).
@@ -414,7 +414,7 @@ msgstr ""
 #. Plugin - name (defrag_on_safe_folder)
 #. source: Startup Folder
 msgid "PLUGIN.defrag_on_safe_folder.name"
-msgstr "启动文件夹"
+msgstr "开机自启动"
 
 #. Plugin - description (defrag_on_safe_folder)
 #. source: Perform a Defrag when the Safe Folder spawns.
@@ -566,7 +566,7 @@ msgstr "商店物品折扣 +10%。"
 #. Plugin - name (shop_discount_25)
 #. source: Volume License
 msgid "PLUGIN.shop_discount_25.name"
-msgstr "批量授权"
+msgstr "VOL 版"
 
 #. Plugin - description (shop_discount_25)
 #. source: Discount Shop Items +25%.
@@ -610,7 +610,7 @@ msgstr "武器速度 ×1.1。"
 #. Plugin - name (xp_drop_boost)
 #. source: Error Report
 msgid "PLUGIN.xp_drop_boost.name"
-msgstr "错误报告"
+msgstr "发送错误报告"
 
 #. Plugin - description (xp_drop_boost)
 #. source: Increase enemy EXP Drop Chance +20%.
@@ -864,13 +864,13 @@ msgstr ""
 #. Plugin - name (system_restore)
 #. source: System Restore
 msgid "PLUGIN.system_restore.name"
-msgstr "系统还原"
+msgstr "冰点还原"
 
 #. Plugin - description (system_restore)
 #. source: On death, heal 50% of Max HP instead of Blue Screen.\nOnce per stack.
 msgid "PLUGIN.system_restore.description"
 msgstr ""
-"死亡时改为回复 50% 最大生命值，而非蓝屏。\n"
+"死亡时不再蓝屏，改为回复 50% 最大生命值。\n"
 "每层一次。"
 
 #. Plugin - name (power_user)
@@ -2268,7 +2268,7 @@ msgstr "已完成"
 #. Torrent window
 #. source: Stalled
 msgid "TORRENT.stalled"
-msgstr "已停滞"
+msgstr "没速度"
 
 #. Torrent window
 #. source: Downloading
@@ -2487,7 +2487,7 @@ msgstr "{avatar} 图片"
 #. Cosmetic unlock - classic theme name
 #. source: Classic Theme
 msgid "UI.cosmetic_theme_classic"
-msgstr "经典主题"
+msgstr "Windows 经典"
 
 #. Cosmetic unlock - vapor theme name
 #. source: Vapor Theme
@@ -2502,12 +2502,12 @@ msgstr "金色主题"
 #. Cosmetic unlock - olive theme name
 #. source: Olive Theme
 msgid "UI.cosmetic_theme_olive"
-msgstr "橄榄主题"
+msgstr "橄榄绿"
 
 #. Cosmetic unlock - silver theme name
 #. source: Silver Theme
 msgid "UI.cosmetic_theme_silver"
-msgstr "银色主题"
+msgstr "银色"
 
 #. Cosmetic unlock - dark theme name
 #. source: Dark Theme
@@ -4001,7 +4001,7 @@ msgstr "已完成 (%d)"
 #. source: Stalled (%d)
 #. Keep placeholders unchanged: %d
 msgid "UI.stalled_count"
-msgstr "已停滞 (%d)"
+msgstr "没速度 (%d)"
 
 #. End screen exit bar close prompt
 #. source: Press {close} to reboot to main menu...
