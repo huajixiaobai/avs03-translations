@@ -6236,7 +6236,7 @@ msgstr "类型"
 #. Scene label
 #. screens: lem_window.tscn
 msgid "Bitrate"
-msgstr "比特率"
+msgstr "码率"
 
 #. Scene label
 #. screens: spam_ad_2.tscn
